@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forgotten Form</title>
+    <link rel="icon" href="zomatologo.png">
+</head>
+<body>
+    <hr>
+    <center> <h1>Sign up form </h1>
+    </center>
+    <hr>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="forms.html">Go Back</a>
+<big> 
+    <form action="thank.html">
+<fieldset>
+    <table>
+        <tr>
+          <td><label for="cname">First Name</label></td>
+          <td><input type="text" id="cname" placeholder="enter first name" pattern="[A-Za-z]"  required></td>
+        </tr>
+        <tr>
+            <td><label for="cname">Last Name</label></td>
+            <td><input type="text" id="cname" placeholder="enter last name"   required></td>
+          </tr>
+  <tr>
+         <td><label for="dob">DOB</label></td>
+         <td>            <input type="date" id="dob" required></td>
+  </tr>
+          <tr>
+            <td><label for="uphone">phone</label></td>
+            <td><input type="text" id="cphone" placeholder="enter phone number"  required pattern="[6-9]{1}[0-9]{9}"></td>
+          </tr>
+          <tr>
+            <td><label for="otp">Otp</label></td>
+            <td><input type="text" id="otp" placeholder="enter Otp"  required pattern="[0-9]{5}"> <a href="otp.html">verify</a></td>
+            
+          </tr>
+          <tr>
+            <td></td>
+            <td><input type="checkbox" required>I'm Not a Robot</a>
+            </td>
+          </tr>
+<tr>
+    <td><label for="password">New Password</label></td>
+    <td><input type="text" id="password" placeholder="enter new password" required pattern="[A-Z]{1}[a-z]{6}[@#$%&*]{1}[0-9]{4}"></td>
+  </tr>
+  <tr>
+    <td><label for="re-password">Re-enter Password</label></td>
+    <td><input type="text" placeholder="Re-enter new password"  id="re-password" required pattern="[A-Z]{1}[a-z]{6}[@#$%&*]{1}[0-9]{4}"></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td> <button>submit</button>
+    </form>
+    </td>
+  </tr>
+</fieldset>
+</big>
+</body>
+</html>
